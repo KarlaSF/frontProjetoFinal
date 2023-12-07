@@ -12,7 +12,6 @@ export class AtualizarprodutoComponent implements OnInit {
 
   produto:IProduto = {
     nome: '',
-    validade: new Date(),
     preco: 0
   };
   

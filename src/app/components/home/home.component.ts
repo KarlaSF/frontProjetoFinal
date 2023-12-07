@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   nomeProduto: string = 'Curso de Angular';
   anuncio: string = `O ${this.nomeProduto} está em promoção`;
   idProduto: number = 3;
-  precoProduto: number = 2.51;
+  precoProduto: number = 5000;
   promocao: boolean = false;
   foto:string = 'assets/img/crud.png';
   dataValidade = "2021-12-31";
